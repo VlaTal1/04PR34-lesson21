@@ -143,6 +143,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Children.cpp" />
+    <ClCompile Include="DayProgram.cpp" />
+    <ClCompile Include="Education.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Movie.cpp" />
+    <ClCompile Include="Show.cpp" />
+    <ClCompile Include="TvProgram.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Children.h" />
+    <ClInclude Include="DayProgram.h" />
+    <ClInclude Include="Education.h" />
+    <ClInclude Include="Movie.h" />
+    <ClInclude Include="Show.h" />
+    <ClInclude Include="TvProgram.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
